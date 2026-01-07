@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Vehicle Loan Calculator</string>
+    <string name="author_info_header">Author Information</string>
+    <string name="author_details">Name: Your Name\nMatric No: U1234567\nCourse: Mobile Technology</string>
+    <string name="copyright">Copyright © 2025 Your Name</string>
+    <string name="github_link">GitHub Repository: https://github.com/username/vehicle-loan-calculator</string>
+</resources>

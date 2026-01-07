@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <ImageView android:layout_width="100dp" android:layout_height="100dp" android:src="@mipmap/ic_launcher" android:layout_gravity="center"/>
+
+        <TextView android:layout_marginTop="12dp" android:text="Vehicle Loan Calculator" android:textSize="18sp" android:textStyle="bold" android:layout_gravity="center"/>
+
+        <TextView android:layout_marginTop="20dp" android:text="Author Information" android:textStyle="bold"/>
+        <TextView android:id="@+id/tvAuthor" android:layout_marginTop="4dp"
+            android:text="Name: Your Name\nMatric No: U1234567\nCourse: Mobile Technology"/>
+
+        <TextView android:layout_marginTop="12dp" android:text="Copyright © 2025 Your Name"/>
+
+        <TextView android:id="@+id/tvGithub" android:layout_marginTop="12dp"
+            android:text="GitHub Repository: https://github.com/username/vehicle-loan-calculator"
+            android:autoLink="web"/>
+    </LinearLayout>
+</ScrollView>
